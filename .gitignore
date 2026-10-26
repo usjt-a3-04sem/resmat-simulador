@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Results
+memorial_cadeira*.txt
+resultado_cadeira*.png
