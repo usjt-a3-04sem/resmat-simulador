@@ -1,0 +1,20 @@
+[project]
+name = "resmat-04sem-sim"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "snt94", email = "eduardo775445@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+]
+
+[project.scripts]
+resmat-04sem-sim = "resmat_04sem_sim:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
